@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url(./reset.css);
+body {
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(63.74deg, #f4f7ff 7.61%, #ffeded 90.65%);
+}
+.container {
+  position: relative;
+  width: 606px;
+  background-color: #ffffff;
+  margin: 60px auto;
+  border-radius: 24px;
+  padding: 64px 104px;
+
+  box-shadow: 0px 44px 84px -60px rgba(113, 19, 160, 0.09);
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 950px;
+  height: 611px;
+  left: 325px;
+  top: 482px;
+  background: rgba(152, 44, 50, 0.03);
+  border-radius: 50px;
+  z-index: -1;
+  margin-left: -400px;
+  margin-top: -100px;
+}
+.card-head figure {
+  text-align: center;
+  gap: 24px;
+}
+.card-head figcaption {
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
+  color: #1c2852;
+}
+.card-head h1 {
+  font-weight: 800px bold;
+  font-size: 24px;
+  text-align: center;
+  color: #1c2852;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.card-head p {
+  text-align: center;
+  padding-top: 35px;
+  background: #f8f4fa;
+  width: 286px;
+  height: 52px;
+  border-radius: 8px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.card-head form {
+  margin-top: 35px;
+}
+.card-head form input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 8px;
+  width: 606px;
+  height: 71px;
+  background: #ffffff;
+  border: 1px solid #c2adc2;
+  border-radius: 8px;
+}
+
+.card-head .select-item {
+  margin-top: 35px;
+  height: 51px;
+}
+.card-head .select-item .label {
+  width: 349px;
+  height: 46px;
+}
+.card-body button {
+  background: #a30062;
+  border: 1px solid #c2adc2;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+  width: 606px;
+  height: 71px;
+  color: #ffffff;
+}
+.card-body .container-signin p {
+  color: #a30062;
+  text-align: center;
+  text-decoration-line: underline;
+  padding-top: 80px;
+}
